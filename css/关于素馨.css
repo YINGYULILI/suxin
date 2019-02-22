@@ -1,0 +1,246 @@
+/*清除列表样式*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /*清除下划线*/
+}
+
+body {
+    background: #f0f0f0;
+}
+
+.bigbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*导航栏开始*/
+.top{
+    width: 1349px;
+    height: 79px;
+    /*background: #000000;
+    background: rgba(0,0,0,0.3);*/
+    background: white;
+    float: left;
+    position: fixed;
+    z-index: 999;
+}
+.title{
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+    color:#fff;
+    position: relative;
+}
+.title img{
+    /*background: red;*/
+    margin-top: 15px;
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+.title-text{
+    width: 86px;
+    height: 79px;
+    float: right;               /*向右边浮动*/
+    margin: 0 auto;
+    line-height: 79px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;       /*鼠标移入显示小手*/
+}
+.a{
+    color: #62a8ea;
+}
+.title-text:hover{         /*鼠标移入变颜色*/
+    color: #62a8ea;
+}
+.title-text:hover{
+    transform: scale(1.2,1.2);
+    overflow: hidden;
+}
+/*导航栏结束*/
+/*大图片*/
+.flowers-two img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*第三行*/
+.flowers-three{
+    width: 1120px;
+    height: 480px;
+    /*background: #0c00fa;*/
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.three-words{
+    width: 1120px;
+    height: 32px;
+    /*background: #0bf22c;*/
+    font-weight: 300;
+    color: #222;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*第四行开始*/
+
+.flowers-four{
+    width: 540px;
+    height: 340px;
+    margin: 10px auto;
+}
+.flowers-four img{
+    width: 100%;
+    height: 100%;
+
+}
+/*第四行结束*/
+
+
+/*底部*/
+.flowers-last{
+    width: 100%;
+    height: 45.5px;
+    /*background: #e33333;*/
+    position: absolute;
+    top: 1300px;
+}
+.last-box{
+    width: 120px;
+    height: 28px;
+    /*background: #212121;*/
+    margin: 8px auto;
+
+}
+.last-one{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+    margin-right: 15px;
+
+
+}
+.last-one i{
+    color: #15ff07;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+.last-two{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: left;
+}
+.last-two i{
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+.last-three{
+    width: 30px;
+    height: 28px;
+    /*background: cyan;*/
+    float: right;
+}
+.last-three i{
+    color: #2d3eff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;/*加小手*/
+}
+
+
+/*底部*/
+.flowers-footer{
+    width: 100%;
+    height: 75.6px;
+    /*background: cyan;*/
+    position: absolute;
+    top: 1350px;
+}
+.footer-one{
+    width: 1280px;
+    height: 25px;
+    /*background: #7c42e3;*/
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+.footer-box{
+    width:355px;
+    height: 25px;
+    /*background: #e33333;*/
+    margin: 0 auto;
+}
+.footer-big{
+    width: 126px;
+    height: 25px;
+    /*background: #212121;*/
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;/*变小手*/
+}
+.footer-big:hover{
+    color: cyan;
+}
+.footer-small{
+    width: 219px;
+    height: 25px;
+    /*background: #2e70ff;*/
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;/*变小手*/
+}
+.footer-small:hover{
+    color: cyan;
+}
+/*底部*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
